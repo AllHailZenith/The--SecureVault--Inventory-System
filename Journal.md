@@ -1,1 +1,3 @@
 The attributes are private because the object's data should not be directly changed from outside the class. The getters are public so other classes can safely access the information. This protects the object's state and prevents accidental changes.
+
+I used super(itemName, itemValue) to call the VaultItem constructor and initialize the superclass attributes. Another way would be to make the superclass attributes protected, but using private with a constructor is more secure because subclasses cannot directly change the data.
