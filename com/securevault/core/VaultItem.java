@@ -26,3 +26,4 @@ public class VaultItem {
         return "Item: " + itemName + ", Value: $" + itemValue;
     }
 }
+
